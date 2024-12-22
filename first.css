@@ -91,5 +91,39 @@ nav{
   border-radius: 50%;
   width: 250px;
   height: 250px;
+  margin-left: 5%;
 
+}
+/* Navbar styles for light mode */
+.light-mode .navbar {
+  background: repeating-linear-gradient(
+    90deg,rgb(152, 232, 152),rgb(93, 93, 202));
+  color: white;
+  border-radius: 15px;
+}
+
+/* Navbar styles for dark mode */
+.dark-mode .navbar {
+  background: repeating-linear-gradient(
+    90deg,rgb(255, 255, 255),rgb(202, 93, 93));
+  color: black;
+  border-radius: 15px;
+}
+
+/* Navbar link styles for better visibility */
+.light-mode .navbar .nav-link {
+  color: white !important;
+}
+
+.dark-mode .navbar .nav-link {
+  color: black !important;
+}
+
+/* Ensure the toggle button is styled appropriately */
+.light-mode .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.dark-mode .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='black' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
