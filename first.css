@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+body.dark-mode {
+    background-color: black;
+    color: white;
+    
+  }
+  body.light-mode {
+    background-color: white;
+    color: black;
+  }
+  .slider-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .form-switch .form-check-input {
+    width: 3rem;
+    height: 1.5rem;
+    background-size: 1.5rem 1.5rem;
+  }
+
+nav{
+  
+  color: aqua;
+  margin-left: 10%;
+  margin-top: 2% ;
+  gap: 80px;
+  
+
+}
+
+.end{
+  padding-left: 50%;
+  display: flex;
+  gap:20px;
+  
+
+}
+.grid img{
+  width: 100px; 
+    height: 100px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    margin-top: 13%;
+    margin-left: 45%;
+}
+.para p{
+  margin-top: 2%;
+  margin-left: 45%;
+  
+}
+.rouge-script-regular {
+  font-family: "Rouge Script", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:60px;
+  margin-left: 12% ;
+}
+#about{
+  width: 300px; 
+  height: 300px; 
+  border-radius: 50%; 
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('about.avif'); 
+  background-size: cover; 
+  background-position: center; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  color: white; 
+  font-family: Modak, serif; 
+  font-weight: 400; 
+  font-size: 24px; 
+  text-align: center;
+
+}
+.hello{
+  display: flex;
+}
+.hello img{
+  width: 80px;
+}
+#projects img{
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+
+}
